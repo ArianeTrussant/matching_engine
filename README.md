@@ -123,3 +123,6 @@ To clean the build directory and rebuild from scratch:
 make clean
 make -j4
 ```
+
+---------
+This project was carried out with TaniaAdmane, Alicia Verjus and Oumaima Brini.
