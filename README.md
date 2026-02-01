@@ -4,10 +4,10 @@ A C++ matching engine implementation for processing market orders.
 
 ## System Compatibility
 
-This project is primarily developed for Unix-like systems (Linux, macOS) but can also be built and run on:
+This project can be built and run on:
+- Windows using Windows Subsystem for Linux (WSL)
 - Ubuntu/Debian Linux
 - macOS
-- Windows using Windows Subsystem for Linux (WSL)
 
 If using Windows, we recommend installing WSL2 with Ubuntu and following the Linux-based instructions.
 
@@ -56,6 +56,7 @@ Example:
 
 ```
 .
+├── build                 # Build directory
 ├── generate_synthetic_data.py  # Script to generate test data
 ├── README.md                  # This file
 ├── sample_data                # Sample data directory
@@ -65,7 +66,6 @@ Example:
 └── src                       # Source code directory
     ├── app_config.cpp
     ├── argparse.cpp
-    ├── build                 # Build directory
     ├── CMakeLists.txt
     ├── include              # Header files
     │   ├── app_config.hpp
